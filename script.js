@@ -24,4 +24,6 @@ inputText.addEventListener('keyup', function(event) { // inputText'e bir tuşa b
     }
 });
 
+// sonradan eklenen açıklama satırı
+
 
