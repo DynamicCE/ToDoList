@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(190, 106, 106);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+    align-items: center; /* içeriğin yatayda ortalanmasını sağladık */
+    text-align: center;     /* içeriğin dikeyde ortalanmasını sağladık */     
+    margin-top: 200px;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    border: 1px solid #fff; /* kenarlığı beyaza boyadık */
+    border-radius: 5px; /* kenarlıkların köşelerini yumuşattık */
+    color: #fff; /* yazı rengini beyaza boyadık */
+    font-size: 20px; /* font boyutunu 20px yaptık */
+    padding: 10px; /* içeriğin kenarlarına boşluk bıraktık */
+    width: 300px; /* genişliği 300px yaptık */
+} 
+input[type="submit"] { /* button */
+    background-color: #fff; /* arkaplanı beyaza boyadık */
+    border: 1px solid #fff; /* kenarlığı beyaza boyadık */
+    border-radius: 5px; /* kenarlıkların köşelerini yumuşattık */
+    color: rgb(190, 106, 106); /* yazı rengini kırmızıya boyadık */
+    cursor: pointer; /* imleç şeklini değiştirdik */
+    font-size: 20px; /* font boyutunu 20px yaptık */     
+    padding: 10px; /* içeriğin kenarlarına boşluk bıraktık */
+    width: 100px; /* genişliği 100px yaptık */
+}
